@@ -1,38 +1,72 @@
+/* App.css */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*  make full page baby pink in ccolor */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ff99cc;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.welcome-screen {
+  margin-top: 100px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.yes-button {
+  background-color: #ff3366;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+.yes-button:hover {
+  background-color: #ff0055;
+}
+
+.no-button {
+  background-color: #f2f2f2;
+  color: #333;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.no-button:hover {
+  background-color: #e6e6e6;
+}
+
+
+/* fa-heart */
+.heart {
+  /*  dark pink */
+  color: '#ff1493';
+  /* fontSize: '2rem' */
+  color: #ff1493;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+
+/* App.css */
+/* App.css */
+.animation-video {
+  width: 100%; /* Make the video wider */
+  height: 300px; /* Adjust the height as needed */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+
+
