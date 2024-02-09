@@ -8,7 +8,7 @@ const WelcomeScreen = () => {
   return (
     <div className="welcome-screen">
         <video className="animation-video" autoPlay loop muted>
-        <source src="/animation.mp4" type="video/mp4" />
+        <source src="/animation.webm" type="video/webm"/>
         Your browser does not support the video tag.
       </video>
         <FontAwesomeIcon icon={faHeart} className="heart"/>

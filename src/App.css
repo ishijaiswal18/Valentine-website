@@ -9,7 +9,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #ff99cc;
+  /* background-color: #ff99cc; */
+  /*  gradiant pink background */
+  /*  bottom to up */
+  background: linear-gradient(to top, #ff99cc, #ffccff);
   color: white;
 }
 
@@ -19,7 +22,7 @@ body {
 }
 
 .yes-button {
-  background-color: #ff3366;
+  background-color: #604c56;
   color: white;
   border: none;
   border-radius: 20px;
